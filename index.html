@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDestination</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="slides">
+        <p><span>Free Home Delivery</span> for paid orders</p>
+        <p><span>Free</span> Return & Exchange (Tnc)</p>
+        <p><span>Pay later & EMI</span> avaliable</p>
+    </div>
+    <nav>
+        <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="bi-list"></i></button>
+        <h2>MYDESIGINATION</h2>
+        <div class="nav-items">
+            <button><i class="bi-search"></i></button>
+            <button><i class="bi-person"></i></button>
+            <button><i class="bi-heart"></i></button>
+            <button><i class="bi-cart"></i></button>
+        </div>
+    </nav>
+</header>
+
+<section class="hero-section">
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.mydesignation.com/cdn/shop/files/SLIDER_HOMEPAGE_PIZZA_WEB_2_jpg.jpg?v=1788778798&width=1500" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.mydesignation.com/cdn/shop/files/Banner1_jpg.jpg?v=1788931927&width=1100" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.mydesignation.com/cdn/shop/files/Banner_1_copy_jpg.jpg?v=1787577689&width=1100" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<section class="trending-section">
+  <div class="d-flex justify-content-between m-3">
+      <h3>Trending now</h3>    
+      <a href="">VIEW ALL</a>
+      </div>
+      <!-- Container where JS will inject the 10 cards -->
+      <div id="card-container" class="card-container"></div>
+</section>
+
+<section class="trending-section">
+  <div class="d-flex justify-content-between m-3">
+      <h3>Curated for you</h3>    
+      <a href="">VIEW ALL</a>
+      </div>
+      <!-- Container where JS will inject the 10 cards -->
+      <div id="curated-card-container" class="card-container"></div>
+</section>
+
+<div class="offcanvas offcanvas-start" data-bs-backdrop="false" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h2 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">MYDESTINATION</h2>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="offcanvas-body">
+      <div class="top">
+     <hr>
+  </div>
+    <ul>
+        <li>Delicious Collection</li>
+        <li>Shop All</li>
+        <li>New Arrivals</li>
+        <li>All Shirts</li>
+        <li>Everyday Essentials</li>
+        <li>All Bottomwear</li>
+        <li>T-shirts</li>
+        <li>Pride Of India</li>
+        <li>Hoodies and Jackets</li>
+        <li>Laptop Sleeves</li>
+        <li>Bulk or International Orders</li>
+    </ul>
+  </div>
+  <div class="bottom">
+    <button><i class="bi-person"></i></button>
+    <p>Login/Signup</p>
+  </div>
+</div>
+<button class="gift-btn">
+  <i class="bi-gift"></i>
+  MDGN Insider</button>
+  
+  <img class="banner" src="https://www.mydesignation.com/cdn/shop/files/pizza_web_banner_final_jpg.jpg?v=1787578626&width=1100" alt="">
+
+  <div class="grid-cards">
+  
+    <img src="./Images/Screenshot 2026-09-17 155038.png" alt="">  
+    <img src="./Images/Screenshot 2026-09-17 154845.png" alt="">
+    <img src="./Images/Screenshot 2026-09-17 154914.png" alt="">
+    <img src="./Images/Screenshot 2026-09-17 154930.png" alt="">
+    <img src="./Images/Screenshot 2026-09-17 154947.png" alt="">
+    <img src="./Images/Screenshot 2026-09-17 155019.png" alt="">
+  </div>
+  <section class="section"> 
+  <div class="banner-card row">
+    <div class="banner-image col">
+      <img src="https://www.mydesignation.com/cdn/shop/files/pizza_tales_tot_copy_2_jpg.jpg?v=1788771199&width=1500" alt="">
+    </div>
+    <div class="col">
+      <h1>TALK OF THE <br> TOWN</h1><br><br>
+      <h2>WORLD'S FIRST <br> ASMR T-shirt.</h2><br><br>
+      <h3>Dont't just wear it. <br>Cut it.🍕✂️</h3><br><br>
+      <p>Yes, you read that right!<br><br>
+      Meet the Pizza Oversized T-shirt designed with distressable mesh sleeves that you can cut, tear and customise however you want.<br><br>
+      And underneath? A pizza-inspired graphic waiting to be revealed.🍕<br><br>
+      The best part? Watching and hearing it transform, it might just be the most satisfying thing you do with a T-shirt. <br><br>
+      Because your t-shirt doesn't have to look like eveyone else's. <br><br>
+      </p>
+      <h5>Cut it. Customise it. Make it yours.</h5>
+      <button>
+        👉CHECK IT OUT NOW
+      </button>
+    </div>
+  </div>
+  <div>
+    <h3>DROP BY FOR A HIGH-FIVE</h3>
+    <p>Find a store near you</p>
+    <button>OPEN NOW</button>
+    <strong>PALARIVATTOM,KOCHI</strong>
+    <button>Get Directions</button>
+  </div>
+  </section>
+  <footer>
+    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
